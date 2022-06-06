@@ -133,3 +133,28 @@ const y = x.getElementsByTagName("p");
 ```
  
 [Let's Try It](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementsbytagname)
+ 
+## Finding HTML Elements by Class Name
+
+If you want to find all HTML elements with the same class name, use `getElementsByClassName()`.
+
+This example returns a list of all elements with `class="intro"`.
+
+**Example**
+```
+const x = document.getElementsByClassName("intro");
+```
+[Let's Try It](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_getelementsbyclassname)
+
+## Finding HTML Elements by CSS Selectors
+
+If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the `querySelectorAll()` method.
+
+This example returns a list of all `<p>` elements with `class="intro"`.
+ 
+**Example**
+
+```
+const x = document.querySelectorAll("p.intro");
+```
+[Let's Try It](https://www.w3schools.com/js/tryit.asp?filename=tryjs_dom_queryselectorall)
